@@ -1,5 +1,12 @@
+AuthType Basic
+AuthName "protected"
+AuthUserFile C:\wamp\www\Hedi\.htpasswd
+Require valid-user
+
 <files "*.txt">
 
 deny from all
 
 </files>
+
+# http://www.htaccesstools.com/
